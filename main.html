@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jobform</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <form action="/my-handling-form-page" method="post">
+        
+            
+                <label for="name">name</label>
+                <input type="text" id="name" name="user_name" placeholder="your name">
+    </br>
+            
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="your email">
+</br>
+<p>Gender</p>
 
+<input type="radio" value="age" id="gender">
+<label for="age">female</label>
+<input type="radio" value="age" id="gender">        
+<label for="age">male</label>
+
+<p>Laptop Brands</p>
+<input type="checkbox" name="laptop" id="laptop">
+<label for="laptop">Apple</label>
+<input type="checkbox" name="laptop" id="laptop">
+<label for="laptop">Asus</label>
+
+<input type="checkbox" name="laptop" id="laptop" >
+<label for="laptop">HP</label>
+
+</br>
+</br>
+<label for="DOB">DOB</label>
+<input type="date" name="DOB" id="dob">
+<label for="age">age</label>
+<input type="number" name="age" id="age" placeholder="your age">
+</br>
+</br>
+<p>your portfolio link</p>
+<input type="url" name="portfolio " id="portfolio ">
+</br>
+
+<label for="password"></label>
+<input type="password" name="password" id="password" placeholder="password">
+
+<input type="button" value="submit">
+
+
+</form>
 </body>
-
 </html>
